@@ -1,44 +1,149 @@
-/* ========================
-    body
-  ======================== */
-
-/* ========================
-    section - all
-  ======================== */
-
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+  background-color: blue;
+}
+img {
+  max-width: 100%;
+}
+.site-title{
+  width: 120px;
+  line-height: 1px;
+  padding: 10px 0;
+}
+.wrapper {
+  max-width: 960px;
+  padding: 0 4%;
+  text-align: center;
+  margin: 0 auto 100px auto;
+}
+.wrapper h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section-title {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 60px;
+  background-color: darkcyan;
+}
+.content-title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
 /* ========================
     header
   ======================== */
 header {
   display: flex;
-  width: 120px;
-  height: 40px;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 60px;
+  background-color: red;  
+}
+header ul {
+  display: flex;
   padding: 10px 0;
 }
-/* .header-list > ul {
-  display: flex;
-  flex-direction: row;
-} */
-
+header li {
+  margin-left: 30px;
+}
+header li a{
+  color: #24292e;
+  font-size: 1.5rem;
+}
+header li a:hover {
+  opacity: 0.7;
+}
 /* ========================
     main-visual
   ======================== */
-.mainvisual {
-  height: 600px;
+#mainvisual img {
+  background-color: orange;
   width: 100%;
   max-width: 1920px;
+  height: 600px;
   object-fit: cover;
-
 }
 /* ============================
  main
 ============================== */
 main{
+  background-color:yellow;
+}
+/* ============================
+  about
+============================== */
+#about {
+  background-color: lightskyblue;
+  margin-top: 80px;
+}
+#about .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+  background-color: orchid;
+}
+#about .profile .text {
+  text-align: left;
+}
+/* ============================
+section
+============================== */
+
+section .profile h3 {
+  background-color: indianred;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+section .profile p {
+  background-color: seagreen;
+}
+section ul li {
+  background-color: purple;
 }
 
+/* ============================
+  bicycle
+============================== */
+#bicycle img{
+  width: 270px;
+  height: 185px;
+}
+#bicycle .content-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#bicycle p {
+  font-size: 14.5px;
+}
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+#bicycle ul li {
+  width: 32%;
+}
 /* ========================
     footer
   ======================== */
 footer {
+  background-color:green;
+  padding: 10px 0;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
 }
   
